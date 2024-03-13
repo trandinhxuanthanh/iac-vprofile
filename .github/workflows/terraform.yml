@@ -2,8 +2,9 @@ name: "Vprofile IAC"
 on:
   push:
     branches:
-      - main 
-      - stage 
+      # - main 
+      # - stage 
+      - "**"
     paths:
       # So any changes happen in this folder in any sub folder inside that.
       # And if the branch is stage or main, and if the action is pushed, all these things matches,
