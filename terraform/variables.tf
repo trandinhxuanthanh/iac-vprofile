@@ -11,7 +11,6 @@ variable "clusterName" {
   default     = "vprofile-eks"
 }
 
-
-## ### 
 # "test workflow after updating the Bucket-tf-state in github secrets"
 # test workflow on "stages" branch at 2:18 PM
+# now test main workflow at 7:37 PM 
