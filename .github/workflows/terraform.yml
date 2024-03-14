@@ -66,6 +66,6 @@ jobs:
         if: steps.plan.outcome == 'failure'
         run: exit 1 # stop the execution exit, close this one
       
-      - name: Terraform Apply
-        run: terraform apply
-        id: apply    
+      # - name: Terraform Apply
+      #   run: terraform apply
+      #   id: apply   
